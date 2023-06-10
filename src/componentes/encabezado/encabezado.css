@@ -1,0 +1,30 @@
+.contenedor-encabezado {
+    position: relative; 
+    text-align: center; 
+  }
+  
+  .contenedor-encabezado img {
+    width: 80%; 
+    height: auto; 
+    object-fit: cover; 
+  }
+  
+  .contenedor-encabezado h1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 3rem; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .contenedor-encabezado h5 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
